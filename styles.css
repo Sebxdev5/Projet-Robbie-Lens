@@ -21,3 +21,18 @@ li{
     font-family: "Manrope", sans-serif;
     font-size: 1em;
 }
+body{
+    background-color: #1f2039;;
+}
+.liens-navigation{
+    background-color:white;
+    color: #242424;
+}
+p, li, h2 {
+    color: #f9f8ff;
+}
+.cta{
+    font-family: "Manrope", sans-serif;
+    color: white;
+    background: linear-gradient(#8e86b5, #acaeed);
+}
