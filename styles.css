@@ -35,4 +35,9 @@ p, li, h2 {
     font-family: "Manrope", sans-serif;
     color: white;
     background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
+}
+.zone-encadree{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
