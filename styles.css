@@ -92,8 +92,24 @@ nav, footer{
     gap: 15px;
     justify-content: center;
     margin-bottom: 15px;
-
 }
-
+.grid-voyages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+.grid-portraits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+.grid-portraits img,
+.grid-voyages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
