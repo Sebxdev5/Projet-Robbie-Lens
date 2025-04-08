@@ -27,6 +27,7 @@ body{
 header, footer{
     background-color:white;
     color: #242424;
+    padding: 20px 50px 20px 50px;
 }
 p, li, h2 {
     color: #f9f8ff;
@@ -40,6 +41,7 @@ p, li, h2 {
 .zone-encadree{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+    padding: 50px;
 }
 a:hover{
     text-decoration: underline;
@@ -50,4 +52,13 @@ a:hover{
 }
 .icone:hover{
     opacity: 0.5;
+}
+.contenu-a-propos{
+    width: 50%;
+    margin: auto;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
