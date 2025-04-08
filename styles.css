@@ -27,6 +27,7 @@ body{
 header, footer{
     background-color:white;
     color: #242424;
+    padding: 20px 50px 20px 50px;
 }
 p, li, h2 {
     color: #f9f8ff;
@@ -40,6 +41,7 @@ p, li, h2 {
 .zone-encadree{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+    padding: 50px;
 }
 a:hover{
     text-decoration: underline;
@@ -51,3 +53,47 @@ a:hover{
 .icone:hover{
     opacity: 0.5;
 }
+.contenu-a-propos{
+    width: 50%;
+    margin: auto;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+nav, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lien-de-navigation{
+    display: flex;
+    gap: 50px;
+}
+.contenu-acceuil{
+    display: flex;
+    width: 50%;
+    gap: 50px;
+    margin: auto;
+    padding-top: 50px;
+}
+.images-acceuil{
+    background-color: white;
+    padding: 80px;
+}
+.images-acceuil h2{
+    color: #242424;
+    text-align: center;
+}
+.images-acceuil div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+
+
