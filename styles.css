@@ -62,3 +62,38 @@ h2{
     padding-top: 50px;
     padding-bottom: 20px;
 }
+nav, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lien-de-navigation{
+    display: flex;
+    gap: 50px;
+}
+.contenu-acceuil{
+    display: flex;
+    width: 50%;
+    gap: 50px;
+    margin: auto;
+    padding-top: 50px;
+}
+.images-acceuil{
+    background-color: white;
+    padding: 80px;
+}
+.images-acceuil h2{
+    color: #242424;
+    text-align: center;
+}
+.images-acceuil div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+
+
