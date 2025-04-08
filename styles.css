@@ -24,7 +24,7 @@ li{
 body{
     background-color: #1f2039;;
 }
-.liens-navigation{
+header, footer{
     background-color:white;
     color: #242424;
 }
