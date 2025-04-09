@@ -1,0 +1,149 @@
+.images-acceuil {
+  background-color: white;
+  padding: 80px;
+}
+
+.images-acceuil h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.images-acceuil div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin: auto;
+  width: 80%;
+}
+
+.contenu-acceuil {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.contenu-acceuil h1 {
+  margin-bottom: 15px;
+}
+
+.contenu-acceuil p {
+  margin-bottom: 30px;
+}
+
+.contenu-acceuil div {
+  padding-right: 80px;
+}
+.section-contact{
+  color: white;
+}
+ /* Titre */
+.section-contact h2{
+  font-size: 1.8em;
+  color: #c2c2ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Style du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+/* Groupes de champs (nom + email) */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Boîtes pour les champs */
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+/* Zone de message */
+.textarea-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Style des labels */
+label {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+input, textarea {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Bouton */
+button {
+  margin-top: 40px;
+  padding: 12px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #9a9aff, #c2c2ff);
+  color: #fff;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #b0b0ff, #d4d4ff);
+}
+@media screen and (max-width:996px){
+  .contenu-acceuil {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  .contenu-acceuil div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+  .contenu-acceuil img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .images-acceuil div {
+    flex-direction: column;
+  }
+  .images-acceuil div img {
+    width: 100%;
+    height: auto;
+  }
+  .section-contact{
+    padding: 50px 20px;
+  }
+  .form-group{
+    flex-direction: column;
+    gap: 0;
+  }
+} 
