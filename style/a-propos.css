@@ -1,0 +1,43 @@
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
+.carre-contenu + div {
+  text-align: center;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+table{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+  margin-bottom: 80px;
+}
+th, td{
+  border: 1px solid #8e86b5; 
+}
+td{
+  padding: 80px;
+}
+th{
+  padding: 20px;
+}
+caption{
+  margin-bottom: 80px;
+}
