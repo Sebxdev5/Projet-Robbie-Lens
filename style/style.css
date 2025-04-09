@@ -19,7 +19,7 @@ em {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
 }
@@ -79,4 +79,33 @@ nav {
 
 nav a {
   margin-left: 30px;
+}
+
+@media screen and (max-width:996px){
+  header nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lien-de-navigation{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+header nav img{
+  margin-bottom: 20px;
+}
+header, footer{
+  padding: 20px 20px;
+}
+h1{
+  font-size: 2em;
+}
+section{
+  padding: 50px 20px 50px 20px;
+}
+nav a{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 }

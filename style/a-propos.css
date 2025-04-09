@@ -1,24 +1,24 @@
-.carre-contenu {
+.zone-encadree {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
   margin-bottom: 80px;
 }
 
-.carre-contenu h2 {
+.zone-encadree h2 {
   margin-top: 30px;
 }
 
-.carre-contenu ul {
+.zone-encadree ul {
   margin-top: 30px;
 }
 
-.carre-contenu + div {
+.zone-encadree + div {
   text-align: center;
 }
 
-.a-propos-main {
-  width: 50%;
+.contenu-a-propos {
+  width: 70%;
   margin: auto;
 }
 table{
@@ -41,3 +41,10 @@ th{
 caption{
   margin-bottom: 80px;
 }
+@media  screen and (max-width: 996px){
+table{
+  display: none;
+}
+  
+}
+

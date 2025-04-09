@@ -26,6 +26,7 @@
   width: 60%;
   align-items: flex-start;
   margin: auto;
+  max-width: 1000px;
 }
 
 .contenu-acceuil h1 {
@@ -57,6 +58,7 @@ form {
   width: 50%;
   margin: auto;
   padding: 20px;
+  max-width: 1000px;
 }
 /* Groupes de champs (nom + email) */
 .form-group {
@@ -113,3 +115,35 @@ button {
 button:hover {
   background: linear-gradient(45deg, #b0b0ff, #d4d4ff);
 }
+@media screen and (max-width:996px){
+  .contenu-acceuil {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  .contenu-acceuil div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+  .contenu-acceuil img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .images-acceuil div {
+    flex-direction: column;
+  }
+  .images-acceuil div img {
+    width: 100%;
+    height: auto;
+  }
+  .section-contact{
+    padding: 50px 20px;
+  }
+  .form-group{
+    flex-direction: column;
+    gap: 0;
+  }
+} 
